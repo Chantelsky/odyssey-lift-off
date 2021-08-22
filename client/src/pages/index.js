@@ -6,7 +6,7 @@ import Tracks from './tracks';
 export default function Pages() {
   return (
     <Router primary={false} component={Fragment}>
-      <Tracks path="/" />
+      <Tracks path='/' />
     </Router>
   );
 }
